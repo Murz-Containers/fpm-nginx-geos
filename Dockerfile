@@ -1,6 +1,6 @@
 FROM murznn/fpm-nginx:7.4.27
 
-RUN apk add git patch mysql-client mariadb-connector-c bash pv geos-dev nodejs-current yarn icu-dev
+RUN apk add git patch mysql-client mariadb-connector-c geos-dev icu-dev nodejs yarn
 
 RUN git clone https://git.osgeo.org/gitea/geos/php-geos.git --depth=1 /usr/src/php/ext/geos \
     && docker-php-ext-install bcmath \
