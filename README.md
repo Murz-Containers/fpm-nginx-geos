@@ -1,6 +1,6 @@
 # fpm-nginx-geos
 
-Fpm-nginx Docker container with build-in geos library and some other common tools:
+Docker container, based on [fpm-nginx](https://github.com/bkuhl/fpm-nginx) with build-in geos library and some other common tools:
 
 - git
 - patch
